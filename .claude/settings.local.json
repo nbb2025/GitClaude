@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(wails init:*)",
+      "Bash(go mod:*)",
+      "Bash(go get:*)",
+      "Bash(wails build:*)",
+      "Bash(wails generate:*)",
+      "Bash(npm install:*)",
+      "WebFetch(domain:wails.io)",
+      "Bash(wails dev:*)",
+      "Bash(echo $PATH)",
+      "Bash(npm run build:*)",
+      "Bash(mkdir:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git filter-branch:*)",
+      "Bash(rm:*)",
+      "Bash(git init:*)"
+    ],
+    "deny": []
+  }
+}
